@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benvingut a l'examen</title>
+    <link rel="stylesheet" href="nestor.css">
 </head>
 <body>
-    <h1>Benvingut a l'examen</h1>
+    <script>
+  document.body.innerHTML += `<h1>Benvingut a l'examen de ${config.name}</h1>`;
+</script>
     <p>Aquest examen consta de dues parts. Selecciona una per començar.</p>
     
     <a href="part1.html">Part 1</a>
